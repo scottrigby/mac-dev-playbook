@@ -18,3 +18,15 @@
     - name: Run .osx dotfiles.
       shell: ~/.osx --no-restart
       changed_when: false
+
+    #- composer:
+    #    command: require
+    #    arguments: opdavies/drupal-vm-config-generator
+    #    working_dir: /usr/local/bin/drupalvm-generate
+    #    - command: "which drupalvm"
+    #      register: drupalvm_generate_result
+    #      changed_when: false
+    # To-do: Ensure this installs only once. The above attempts fail.
+    - name: Install drupalvm-generate
+      shell: composer global require opdavies/drupal-vm-config-generator:@stable
+    #      when: 'drupalvm_generate_result.stdout == ""'
