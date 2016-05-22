@@ -63,12 +63,15 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adium
+  - arq
   - bettertouchtool
   - google-chrome
+  - doitim
   - dropbox
   - fing
   - firefox
   - handbrake
+  - joinme
   - karabiner
   - lastpass
   - limechat
@@ -76,10 +79,13 @@ homebrew_cask_apps:
   - macvim
   - menumeters
   - nvalt
+  - phpstorm
   - sequel-pro
+  - slack
   - skype
   - skitch
   - seil
+  - spectacle
   - sublime-text # Note - Sublime Text 2 only, at this time...
   - textmate
   - timemachineeditor
