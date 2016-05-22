@@ -17,6 +17,7 @@ homebrew_installed_packages:
   - ansible
   - autoconf
   - bash-completion
+  - composer
   - docker
   - docker-compose
   - docker-machine
