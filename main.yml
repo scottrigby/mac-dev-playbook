@@ -30,3 +30,7 @@
     - name: Install drupalvm-generate
       shell: composer global require opdavies/drupal-vm-config-generator:@stable
     #      when: 'drupalvm_generate_result.stdout == ""'
+
+    - name: Install vagrant-hostupdater for drupal-vm.
+      shell: vagrant plugin install vagrant-hostsupdater
+      changed_when: false
