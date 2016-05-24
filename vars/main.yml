@@ -30,6 +30,7 @@ homebrew_installed_packages:
   - iperf
   - libdvdcss
   - libevent
+  - openconnect
   - packer
   - python
   - sqlite
@@ -45,6 +46,7 @@ homebrew_installed_packages:
   - ios-sim
   - readline
   - subversion
+  - stoken
   - kdiff3
   - openssl
   - pv
