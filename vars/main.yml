@@ -88,6 +88,7 @@ homebrew_cask_apps:
   - slack
   - skype
   - skitch
+  - spotify
   - seil
   - spectacle
   - sublime-text # Note - Sublime Text 2 only, at this time...
