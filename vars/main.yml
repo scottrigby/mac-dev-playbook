@@ -82,6 +82,7 @@ homebrew_cask_apps:
   - menumeters
   - nvalt
   - phpstorm
+  - private-internet-access
   - sequel-pro
   - slack
   - skype
