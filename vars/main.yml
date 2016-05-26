@@ -6,6 +6,7 @@ configure_sudoers: yes
 dotfiles_repo: https://github.com/scottrigby/dotfiles.git
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
+  - .bash_aliases
   - .bash_profile
   - .gitconfig
   - .gitignore
